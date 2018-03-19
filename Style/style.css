@@ -36,9 +36,19 @@
 }
 
 .card-img-top {
-    background-color: #FFFF66;
+    background-color: #FFCC70;
     height: 150px;
     margin-bottom: 20px;
+    width: 100%;
+    padding: 0;
+}
+
+.card-img-top-2 {
+    background-color: #FFCC70;
+    height: 150px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 0;
 }
 
 .navigation {
@@ -133,6 +143,15 @@ li.menu-item a{
   width: 200px;
 }
 
+.home-button.action-item {
+  border: 10px #5A71DE;
+  background-color: #5A71DE;
+  padding: 10px;
+  width: 200px;
+  color: #FFF;
+  margin-top: 80px;
+}
+
 .home-blurb {
   margin-top: 150px;
   font-size: 10px;
@@ -159,4 +178,29 @@ li.menu-item a{
 
 .blurb {
   font-size: 12px;
+}
+
+.col-md-3.img-home {
+  margin: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.popout-text {
+  text-align: left;
+  font-size: 36px;
+  padding: 20px;
+}
+
+.testimonial {
+  height: 200px;
+  background-color: #f6f6f6;
+  box-shadow: 2px 2px 3px 0 #000;
+  padding: 15px;
+  background-position: center;
+  margin-top: 80px;
+}
+
+.testimonial-blurb {
+  color: #000;
 }
