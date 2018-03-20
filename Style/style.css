@@ -195,10 +195,11 @@ li.menu-item a{
 .testimonial {
   height: 200px;
   background-color: #f6f6f6;
-  box-shadow: 2px 2px 3px 0 #000;
-  padding: 15px;
+  box-shadow: 2px 2px 10px 0 #dcdcdc;
+  padding: 25px;
   background-position: center;
   margin-top: 80px;
+  font-size: 14px;
 }
 
 .testimonial-blurb {
@@ -207,5 +208,52 @@ li.menu-item a{
 
 #contact-button {
     font-size: 14px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 25px 10px 25px;
+}
+
+.card-img-bottom {
+    background: linear-gradient(
+                   rgba(20,20,20, .5),
+                   rgba(20,20,20, .5));
+    background-image: url("../images/natural-cleaning-products.jpg");
+    height: 600px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-size: cover;
+}
+
+#footer-col {
+  background-color: #FFF;
+  width: 600px;
+  height: 400px;
+  margin-top: 80px;                                                                                                                                                          px;
+}
+
+#footer-col-1 {
+  background-color: #FFF;
+  height: 400px;
+  margin-top: 80px;
+  padding: 20px 40px 10px 40px;                                                                                                                                          px;
+}
+
+#footer-about {
+  font-size: 16px;
+
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.title-body {
+  font-size: 14px;
+}
+
+.footer-text-1 {
+  text-align: left;
+  font-size: 20px;
 }
